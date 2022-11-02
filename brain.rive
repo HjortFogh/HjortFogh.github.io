@@ -1,0 +1,31 @@
+! version = 2.0
+! var name = Clio
+
++ (goddag|hej|halloej)
+- Hej
+
++ [*] hvad er dit navn [*]
+- Mit navn er <bot name>
+
++ [*] hvordan gaar det[*]
+- det går godt.
+
++ [*] (fortael|fortaelle) [lidt] om dig [selv] [*]
+- Mit navn er <bot name>. Jeg er en næste-generations underviser, som du kan tage med overalt. Jeg kan undervise i mange forskellige emner som matematik, dansk og fysik. 
+
++ [*] matematik spoergsmaal [*]
+- Hvad er kvadratroden af 25
+
++ [*]er 5[*]
+% [*] hvad er kvadratroden af 25
+- Det er korrekt! Godt klaret!
+
++ [*] er *
+% [*] hvad er kvadratroden af 25
+- Det er desvære forkert. Prøv igen!
+
++ [*] (fortael|fortaelle) [lidt] om [faget] fysik [*]
+- Ordet fysik stammer fra græsk og betyder viden om natur. Fysik handler at undersøge og måle på stof, energi og bevægelse. Fysik ligger sig tæt op ad andre videnskaber som kemi og astronomi.
+
++ *
+- Det forstod jeg ikke.
